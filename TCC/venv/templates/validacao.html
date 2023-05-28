@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/estilo.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Obra</title>
+</head>
+<body>
+<div class="form-validacao">
+<div class="titulo"><h1>Validacão de Obra</h1></div>
+<form  enctype="multipart/form-data"  name="validacao de obra" method="post">
+    <br>
+    Realize o upload da obra
+    <br><br>
+    <input class="arquivo" type="file" id="file" name="file"  required accept=".jpeg, .jpg, .png" /><br> <br>
+    <input id=voltar type="submit" value="Validar"> <br><br>
+    <br>
+</form>
+<br>
+</div> 
+</body>
+</html>

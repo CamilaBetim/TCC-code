@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <script src="validar_chamado.js"> </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamado</title>
+</head>
+<body>
+<div class="form-chamado">
+<div class="titulo"><h1>Chamado</h1></div>
+<form name="chamado">
+    <div class="alinhar"><label for="title">Título:</label></div>
+    <input type="text" id="title" name="title"><br>
+    <div class="alinhar"><label for="descritivo">Descritivo:</label></div>
+    <textarea class="area" id="mensagem"
+    placeholder="Descreva seu problema"></textarea>
+    <br><br>
+    <div class="alinhar">Prioridade:</div>
+        <select id="prioridade">
+        <option>Baixo</option>        
+        <option>Normal</option>        
+        <option>Alta</option>        
+        <option>Emergência</option>
+        </select>
+    <br><br>
+    <div class="alinhar">Status:</div>
+        <select id="status">
+        <option>Aberto</option>        
+        <option>Cancelado</option>        
+        <option>Fechado</option>
+        </select>
+    <br><br>
+    <div class="alinhar">Tipo:</div><br> <br>
+    <div class="label">
+    <label for="title">Hardware</label>
+    <input type="checkbox"  id="tipo1"/>
+    <label for="title">Software</label>
+    <input type="checkbox"  id="tipo2"/>
+    <label for="title">Rede</label>
+    <input type="checkbox"  id="tipo3"/>
+    <label for="title">Acessos </label>
+    <input type="checkbox"  id="tipo4"/> 
+    </div>
+    <br><br>
+        <button type="button" onclick="validar()" id="btn">Enviar</button>
+  </form><br>
+        <a href="login.html"><button>Voltar</button></a>  
+</div>
+<br>
+
+ 
+</body>
+</html>

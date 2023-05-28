@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/estilo.css') }}">
+   <script src="validar_login.js"> </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+<div class="form">
+<div class="titulo"><h1 >Login</h1></div>
+<form method="post">
+    {{ value }}
+    <div><input type="email" id="email" name="email"  required placeholder="Email"><br> </div>
+    <div><input type="password" id="senha1" name="senha" required placeholder="Senha"> <br> <br></div>
+    <button type="submit">Enviar</button>
+  </form>
+<br> <br>
+
+  <b><a class="five" href="esqueci.html" id="link">Esqueceu a senha?</a></b>
+</div> 
+<a class="create" href="/cadastro" id="link">Crie sua conta!</a> <br> <br>
+</body>
+</html>

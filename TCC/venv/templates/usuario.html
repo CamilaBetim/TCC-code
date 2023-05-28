@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/estilo.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+<div class="form-usuario">
+<div class="titulo"><h1>Cadastro de usuário</h1></div>
+{{ value }}
+<form name="cadastro" method="post">
+    <label class="cadastro_usuario" for="name">Nome:</label>
+    <input class="cadastro_usuario" type="text" id="lnome" name="lname" required><br>
+    <label class="cadastro_usuario" for="name">Sobrenome:</label>
+    <input class="cadastro_usuario" type="text" id="lsobrenome" name="lsobrenome"  required><br>
+    <label class="cadastro_usuario" for="name">Senha:</label>
+    <input class="cadastro_usuario" type="password" id="lsenha" name="lsenha"  required><br>
+    <label class="cadastro_usuario" for="nickname">Nickname:</label>
+    <input class="cadastro_usuario" type="text" id="nickname" name="nickname"  required><br>
+    <label class="cadastro_usuario" for="email">Email:</label>
+    <input class="cadastro_usuario" type="email" id="lemail" name="lemail"  required><br>
+    <input class="cadastro_usuario" id=voltar type="submit" value="Inserir"> <br>
+</form>
+<br>
+<a href="/"><button>Voltar</button></a>
+</div> 
+</body>
+</html>

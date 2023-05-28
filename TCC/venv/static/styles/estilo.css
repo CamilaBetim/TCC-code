@@ -1,0 +1,259 @@
+
+body {
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(100, 129, 223));
+    margin: auto;
+    width: 50%; 
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+  
+    
+}
+
+.form {
+    background-color: rgb(250, 250, 249);
+    border: 1px solid rgb(163, 163, 163);
+    top: 50%; 
+    margin-top: 50px; 
+    border-radius: 10px;
+    height:400px;   
+    font-family: "Trirong", serif;
+    padding: 10px
+   
+    
+}
+
+.form-cadastro {
+
+    background-color: rgb(250, 250, 249);
+    border: 1px solid rgb(163, 163, 163);
+    top: 50%; 
+    margin-top: 50px; 
+    border-radius: 10px;
+    height:700px;   
+    font-family: "Trirong", serif;
+    padding: 10px
+
+}
+
+.form-usuario {
+
+    background-color: rgb(250, 250, 249);
+    border: 1px solid rgb(163, 163, 163);
+    top: 50%; 
+    margin-top: 50px; 
+    border-radius: 10px;
+    height:600px;   
+    font-family: "Trirong", serif;
+    padding: 10px
+
+}
+
+.form-validacao {
+
+    background-color: rgb(250, 250, 249);
+    border: 1px solid rgb(163, 163, 163);
+    top: 50%; 
+    margin-top: 50px; 
+    border-radius: 10px;
+    height:400px;   
+    font-family: "Trirong", serif;
+    padding: 10px
+
+}
+
+.form-chamado {
+    background-color: rgb(250, 250, 249);
+    border: 1px solid rgb(163, 163, 163);
+    top: 50%; 
+    margin-top: 50px; 
+    border-radius: 10px;
+    height:800px;   
+    font-family: "Trirong", serif;
+    padding: 10px;
+ 
+
+}
+
+input, select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(163, 163, 163);
+  border-radius: 10px;
+  box-sizing: border-box;
+  
+}
+
+.cadastro_usuario
+{
+    display: inline-block;
+    width: 50%;
+    text-align: left; 
+    padding: 12px 20px;
+    margin: 8px -100px;
+  
+}
+
+
+.titulo {
+    color: 
+    #2081E2;
+    font-size: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px #181717;
+    
+
+}
+
+
+button {
+    background-color:rgb(100, 129, 223); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+#ok {
+    background-color: rgb(100, 129, 223); 
+    border: none;
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    height: 50px;
+    width: 50px;
+}
+
+
+#voltar {
+    background-color: rgb(100, 129, 223); 
+    border: none;
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    height: 50px;
+    width: 150px;
+}
+
+a.five:link {color:#3d3d9c;text-decoration:none;}
+a.five:visited {color:#3d3d9c;text-decoration:none;}
+a.five:hover {text-decoration:underline;}
+a.five {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a.create:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(100, 129, 223);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 50px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+a.create:hover, a:active {
+    background-color: rgb(100, 129, 223);
+    color: white;
+  }
+
+a.login:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(115, 117, 122);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 50px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+a.login:hover, a:active {
+    background-color: rgb(115, 117, 122);
+    color: white;
+  }
+
+hr {
+    width:70%;
+    margin:0 auto;
+}
+
+.area {
+    width: 55%;
+    padding: 10px 10px;
+    margin: -20px 1px;
+    display: inline-block;
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.arquivo::file-selector-button {
+    border: none;
+    font-weight: bold;
+    color: dodgerblue;
+    padding: 0.5em;
+    border: thin solid grey;
+    border-radius: 10px;
+    margin-top: 0rem;
+    box-sizing: none;
+
+}
+
+.frase {
+    color: rgb(12, 11, 11);
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Trirong", serif;
+}
+
+.alinhar{
+    display: inline-block;
+    width: 110px;
+}
+
+/* Customize the label (the container) */
+.container {
+    margin: 50px;
+    padding: 20px;
+    overflow:hidden;
+    width: 50px;
+    display: flex;
+
+  }
+
+.label {
+    display: flex;         /* Magic begins */
+    align-items: baseline;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+
+#tabela {
+
+border-collapse: collapse;
+  
+}
+
+
+  

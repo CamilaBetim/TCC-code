@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/estilo.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Obra</title>
+</head>
+<body>
+<div class="form-cadastro">
+<div class="titulo"><h1>Cadastro de Obra</h1></div>
+{{ value }}
+<br>
+<form  enctype="multipart/form-data"  name="cadastro de obra" method="post">
+    <label for="name">Nome da Obra:</label>
+    <input type="text" id="lobra" name="lobra"  required><br> <br>
+    <label for="descricao">Descrição da Obra:</label>
+    <textarea class="area" id="descricao" name="descricao" placeholder="Opcional"></textarea><br> <br>
+    <label for="file">Carregar Obra:</label>
+    <input class="arquivo" type="file" id="file" name="file"  required accept=".jpeg, .jpg, .png" /><br> <br>
+    <p class="frase">*Extensões suportadas: .jpeg, .jpg, .png</p>
+    <input id=voltar type="submit" value="Subir"> <br>
+    <a class="create" href="/validacao" id="link">Validação de Obra</a> <br> <br>
+</form>
+<br>
+</div> 
+</body>
+</html>

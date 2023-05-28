@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/estilo.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Obra</title>
+</head>
+<body>
+<div class="form-cadastro">
+<form  enctype="multipart/form-data"  name="validacao de obra" method="post">
+    <br><br>
+    <img src="{{ url_for('static',filename='{}'.format(imagem) ) }}" width="220" height="220" />
+    <br>
+    <b>{{ value }}</b><br>
+    <b>{{ email }}</b>
+    <br>
+    <br>
+    <hr>
+    <a class="create" href="/validacao" id="link">Realizar outra validação</a><br>
+    <a class="login" href="/" id="link">Voltar para Login</a>
+  </form>
+<br>
+</div> 
+</body>
+</html>
